@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  html {
+      background-color: #616161;
+  }
+  
+  table, tr, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  
+  td {
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .countdown {
+    display: inline;
+  }
+  
+  .table-wrapper {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .info-wrapper {
+    text-align: center;
+    color: white;
+  }
+  
+  .reset-wrapper {
+    text-align: center;
+    width: 100%;
+    color: red;
+  }
+  
+  .reset-btn {
+    border: none;
+    width: 214px;
+    height: 30px;
+    background-color: #db4125;
+    color: white;
+  }
+  
+  .reset-btn:active {
+    background-color: #b02b13;
+  }
+  
+  .occ {
+    background-color: #4d4d4d;
+  }
+  
+  .occ-x {
+    background-color: #4d4d4d;
+  }
+
+  .occ-o {
+    background-color: #4d4d4d;
+  }
+  
+  .winner {
+    color: green;
+  }
+  
+  .blocked {
+    background-color: #4d4d4d;
+  }
